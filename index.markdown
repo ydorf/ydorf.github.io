@@ -5,9 +5,7 @@
 layout: home
 sidebar:
   - title: "yudoufu_k"
-    image: http://placehold.it/350x250
+    image: https://raw.githubusercontent.com/ydorf/ydorf.github.io/gh-pages/image/Nn5WMCMW_400x400.png
     image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
+    text: "Tofu"
 ---
