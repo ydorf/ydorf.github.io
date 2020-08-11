@@ -1,5 +1,5 @@
 ---
-layout: post
-title: My First Blog Post
+layout: posts
+title: My First Post
 ---
 My 投稿
