@@ -1,0 +1,45 @@
+<div class="sidebar sticky">
+    <div itemscope itemtype="https://schema.org/Person">
+
+  
+
+        <div class="author__content">
+            <img src="https://raw.githubusercontent.com/ydorf/ydorf.github.io/gh-pages/image/Nn5WMCMW_400x400.png"
+            alt="image">
+          
+            <h3 class="author__name" itemprop="name">yudoufu_k</h3>
+
+          
+            <div class="author__bio" itemprop="description">
+              <p>DS@JTC</p>
+      
+            </div>
+          
+        </div>
+      
+        <div class="author__urls-wrapper">
+          <button class="btn btn--inverse">フォロー</button>
+          <ul class="author__urls social-icons">
+            
+              <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+                <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">The Tatami Galaxy.</span>
+              </li>
+          </ul>
+        </div>
+    </div>
+
+    {% if page.sidebar %}
+    {% for s in page.sidebar %}
+        {% if s.image %}
+        <img src="{{ s.image | relative_url }}"
+                alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+        {% endif %}
+        {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+        {% if s.text %}{{ s.text | markdownify }}{% endif %}
+        {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+        {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+    {% endif %}
+</div>
