@@ -95,7 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "yudoufu_k"
-  avatar           : https://raw.githubusercontent.com/ydorf/ydorf.github.io/gh-pages/image/Nn5WMCMW_400x400.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : image/Nn5WMCMW_400x400.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+#  avatar           : https://raw.githubusercontent.com/ydorf/ydorf.github.io/gh-pages/image/Nn5WMCMW_400x400.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "DS@JTC"
   location         : "The Tatami Galaxy."
   email            :
