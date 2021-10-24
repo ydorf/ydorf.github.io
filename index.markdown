@@ -5,7 +5,7 @@
 layout: home
 sidebar:
   - title: "yudoufu_k"
-    image: https://raw.githubusercontent.com/ydorf/ydorf.github.io/gh-pages/image/Nn5WMCMW_400x400.png
+    image: "https://raw.githubusercontent.com/ydorf/ydorf.github.io/master/image/Nn5WMCMW_400x400.png"
     image_alt: "image"
     text: "Tofu"
 ---
